@@ -6,7 +6,12 @@ A google chrome extension that overhauls the design of the Wikipedia website. En
 Before & After
 =====================
 
-
+![alt tag](http://david-hong.com/img/side/before.png)
+![alt tag](http://david-hong.com/img/side/after.png)
+![alt tag](http://david-hong.com/img/side/before2.png)
+![alt tag](http://david-hong.com/img/side/after2.png)
+![alt tag](http://david-hong.com/img/side/before3.png)
+![alt tag](http://david-hong.com/img/side/after3.png)
 
 
 How To Install
