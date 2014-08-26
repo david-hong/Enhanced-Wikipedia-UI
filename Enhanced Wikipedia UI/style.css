@@ -1,0 +1,121 @@
+body, p-logo a{
+background-image:url('http://slodive.com/wp-content/uploads/2011/05/white-backgrounds/whitebackground.jpg') !important;
+}
+body #mw-page-base{
+background-image:none;
+}
+#toc, .toc{
+position: fixed !important;
+left: 0 !important;
+top: 160px !important;
+z-index: 100 !important;
+width: 230px;
+margin-left: 5px;
+}
+body div#content{
+margin-left: 16em !important;
+margin-top: 7px;
+border: none;
+}
+.portal, #left-navigation, #p-views{
+display:none !important;
+}
+h1, h2, h3, h4, h5, h6{
+border-bottom:none !important;
+}
+html .thumbcaption {
+font-size: 12px;
+color: #444;
+font-style: italic;
+line-height: 18px;
+}
+body div.thumbinner{
+border: 8px solid #f9f9f9;
+box-shadow: 0px 0px 1px rgb(0,0,0);
+border-radius: 3px;
+}
+body a{
+color: rgb(0, 139, 139) !important;
+}
+body div#content p{
+font-family: open sans;
+line-height: 24px;
+text-indent: 35px;
+margin-bottom: 13px;
+}
+body .referencetooltip li{
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+body div#content{
+border: none;
+padding: 1.5em 2em;
+}
+
+body #right-navigation{
+width: 100%;
+}
+html body #right-navigation #p-search{
+margin: 0 auto;
+display: block;
+float: none;
+}
+body #p-search form{
+width: 600px;
+margin-left: 210px;
+}
+body div#simpleSearch{
+width: 600px;
+height: 30px;
+margin-top: -10px;
+background-image: none;
+border: 1px solid #ccc;
+margin-left:70px;
+}
+#mw-head div#simpleSearch #searchButton, #mw-head div#simpleSearch #mw-searchButton{
+background-color: #f0f0f0;
+}
+div#simpleSearch #searchInput{
+line-height:25px;
+margin-left:10px;
+}
+.suggestions > .suggestions-results{
+margin-top: 3px;
+}
+body a .suggestions-result{
+padding: 10px 10px;
+border-bottom: 1px solid #ccc;
+background: #fafafa;
+}
+body a .suggestions-result:hover{
+background: rgb(100, 149, 237);
+color: white;
+}
+body .infobox td, body .infobox th{
+vertical-align:middle;
+height: 30px;
+}
+body.mediawiki table.mbox-small{
+border-radius: 3px;
+padding: 5px;
+}
+body .infobox{
+padding: 15px;
+border-radius: 3px;
+}
+body .infobox caption{
+font-size: 26px;
+margin:10px;
+}
+body #toc ul{
+max-height: 470px;
+overflow-y: auto;
+}
+body #p-logo a{
+position: fixed;
+top: 0;
+left: 50px;
+}
+body div#footer{
+display:none;
+}

@@ -1,0 +1,12 @@
+{
+"name": "Enhanced Wikipedia UI",
+"description": "A massive overhaul on the design of the Wikipedia website. Enhanced design includes a more user friendly interface, typography enhancements, as well as a more modern feel for the overall site and significantly increases readability.",
+"manifest_version": 2,
+"version": "1.0",
+"content_scripts": [
+		{
+		"matches": ["*://*.wikipedia.org/*"],
+		"css": ["style.css"]
+		}
+	]
+}
