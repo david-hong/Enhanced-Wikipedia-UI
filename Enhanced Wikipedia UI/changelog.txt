@@ -1,0 +1,8 @@
+CHANGELOG
+
+v1.0.1
+
+- Added custom table styling
+- Revamped pictures, now with hover to view caption and click to view the image in the lightbox rather than opening in a new page
+- Removed link pictures in the "References" and "External Links" section
+- Various other fixes to remove clutter

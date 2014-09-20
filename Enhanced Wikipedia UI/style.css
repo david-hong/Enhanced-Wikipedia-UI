@@ -66,7 +66,7 @@ margin-left: 210px;
 }
 body div#simpleSearch{
 width: 600px;
-height: 30px;
+height: 35px;
 margin-top: -10px;
 background-image: none;
 border: 1px solid #ccc;
@@ -76,7 +76,7 @@ margin-left:70px;
 background-color: #f0f0f0;
 }
 div#simpleSearch #searchInput{
-line-height:25px;
+line-height:32px;
 margin-left:10px;
 }
 .suggestions > .suggestions-results{
@@ -117,5 +117,69 @@ top: 0;
 left: 50px;
 }
 body div#footer{
+display:none;
+}
+body table.wikitable > tr > td,body  table.wikitable > * > tr > th, table.wikitable > * > tr > td{
+padding: 10px 5px;
+}
+body table.wikitable > tr > td,body  table.wikitable > * > tr > th, table.wikitable > * > tr td{
+    background: #fff
+}
+body table.wikitable > * > tr td.summary{
+font-weight: bold;
+padding: 10px 20px;
+font-family: open sans;
+line-height: 24px;
+}
+body table.wikitable > * > tr td.description{
+border: 1px #aaa solid;
+padding: 15px 25px;
+font-family: open sans;
+color: #666;
+line-height: 24px;
+text-indent: 35px;
+margin-bottom: 13px;
+}
+body  table.wikitable > * > tr.vevent > th{
+font-family: open sans;
+line-height: 24px;
+padding: 15px 20px;
+}
+body  table.wikitable > * > tr > th{
+font-family: open sans;
+line-height: 24px;
+padding: 15px;
+}
+body #content .external{
+display:none;
+}
+html body .thumbcaption{
+background: #ccc;
+border-radius: 3px;
+padding: 10px 15px;
+margin-top: 20px;
+float: left;
+opacity:0;
+transition: all ease 0.5s;
+position:absolute;
+z-index:-1;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+background: #f4f4f4;
+border: 1px solid #ccc;
+margin-left: -10px;
+}
+html body .thumbinner:hover .thumbcaption{
+opacity:1;
+z-index:1;
+}
+body .mw-content-ltr div.magnify a{
+background-image:none;
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+}
+body #siteSub{
 display:none;
 }
