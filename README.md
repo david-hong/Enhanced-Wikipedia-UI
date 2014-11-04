@@ -3,6 +3,8 @@ Enhanced-Wikipedia-UI
 
 A Google Chrome extension that overhauls the design of the Wikipedia website. Enhanced design includes a more user friendly interface, typography enhancements, as well as a more modern feel for the overall site and significantly increases readability.
 
+<a href="https://chrome.google.com/webstore/detail/enhanced-wikipedia-ui/kpccobiljcljgnldjleifiblpdicjmmd">Download it here</a>
+
 Before & After
 =====================
 
