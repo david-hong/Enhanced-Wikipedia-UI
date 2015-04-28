@@ -1,0 +1,256 @@
+body, p-logo a{
+background-image:url('http://slodive.com/wp-content/uploads/2011/05/white-backgrounds/whitebackground.jpg') !important;
+}
+body #mw-page-base{
+background-image:none;
+}
+body #toc, body .toc{
+position: fixed !important;
+left: 0 !important;
+top: 160px !important;
+z-index: 100 !important;
+width: 230px;
+margin-left: 5px;
+background:white;
+border:none;
+}
+body div#content{
+margin-left: 16em !important;
+margin-top: 7px;
+border: none;
+}
+.portal, #left-navigation, #p-views{
+display:none !important;
+}
+h1, h2, h3, h4, h5, h6{
+border-bottom:none !important;
+}
+html .thumbcaption {
+font-size: 12px;
+color: #444;
+font-style: italic;
+line-height: 18px;
+}
+body div.thumbinner{
+box-shadow: none;
+  border-radius: 0;
+  border:none;
+}
+body a{
+color: rgb(0,120,200) !important;
+}
+body div#content p{
+  font-family: Droid Serif !important;
+  line-height: 26px !important;
+  font-size: 15px;
+text-indent: 35px;
+margin-bottom: 15px;
+}
+body .referencetooltip li{
+border-radius: 10px;
+border: 1px solid #ccc;
+}
+body div#content{
+border: none;
+padding: 1.5em 2em;
+}
+
+body #right-navigation{
+width: 100%;
+}
+html body #right-navigation #p-search{
+margin: 0 auto;
+display: block;
+float: none;
+}
+body #p-search form{
+width: 600px;
+margin-left: 210px;
+}
+body div#simpleSearch{
+width: 600px;
+height: 35px;
+margin-top: -10px;
+background-image: none;
+border: 1px solid #ccc;
+margin-left:70px;
+}
+#mw-head div#simpleSearch #searchButton, #mw-head div#simpleSearch #mw-searchButton{
+background-color: #f0f0f0;
+width: 60px;
+}
+div#simpleSearch #searchInput{
+line-height:32px;
+margin-left:10px;
+}
+.suggestions > .suggestions-results{
+margin-top: 3px;
+}
+body a .suggestions-result{
+padding: 10px 10px;
+border-bottom: 1px solid #ccc;
+background: #fafafa;
+}
+body a .suggestions-result:hover{
+background: rgb(100, 149, 237);
+color: white;
+}
+body .infobox td, body .infobox th{
+vertical-align:middle;
+height: 30px;
+}
+body.mediawiki table.mbox-small{
+border-radius: 3px;
+padding: 5px;
+}
+body .infobox{
+padding: 15px;
+border-radius: 3px;
+display:none;
+}
+body .infobox caption{
+font-size: 26px;
+margin:10px;
+}
+body #toc ul{
+max-height: 470px;
+overflow-y: auto;
+}
+body #p-logo a{
+position: fixed;
+top: 0;
+left: 50px;
+}
+body div#footer{
+display:none;
+}
+body table.wikitable > tr > td,body  table.wikitable > * > tr > th, table.wikitable > * > tr > td{
+padding: 10px 5px;
+}
+body table.wikitable > tr > td,body  table.wikitable > * > tr > th, table.wikitable > * > tr td{
+    background: #fff
+}
+body table.wikitable > * > tr td.summary{
+font-weight: bold;
+padding: 10px 20px;
+font-family: open sans;
+line-height: 24px;
+}
+body table.wikitable > * > tr td.description{
+border: 1px #aaa solid;
+padding: 15px 25px;
+font-family: open sans;
+color: #666;
+line-height: 24px;
+text-indent: 35px;
+margin-bottom: 13px;
+}
+body  table.wikitable > * > tr.vevent > th{
+font-family: open sans;
+line-height: 24px;
+padding: 15px 20px;
+}
+body  table.wikitable > * > tr > th{
+font-family: open sans;
+line-height: 24px;
+padding: 15px;
+}
+body #content .external{
+display:none;
+}
+html body .thumbcaption{
+background: #ccc;
+border-radius: 3px;
+padding: 10px 15px;
+margin-top: 20px;
+float: left;
+opacity:0;
+transition: all ease 0.5s;
+position:absolute;
+z-index:-1;
+box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+background: #f4f4f4;
+border: 1px solid #ccc;
+margin-left: -10px;
+}
+html body .thumbinner:hover .thumbcaption{
+opacity:1;
+z-index:1;
+}
+body .mw-content-ltr div.magnify a{
+background-image:none;
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+}
+body #siteSub{
+display:none;
+}
+body div.hatnote{
+text-align: center;
+  color: #888888;
+  padding-left:0;
+}
+body .infobox caption{
+display:none;
+}
+body .mw-body h2{
+font-family: Droid Serif;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+body .mw-body h3, body .mw-body h4{
+  font-family: Helvetica;
+  font-size: 24px;
+  text-align: center;
+  font-size:30px;
+}
+body #contentSub, body #contentSub2{
+  margin: 0 0 1.5em 1em;
+}
+body div#content p:first-child{
+  margin-top: 25px;
+}
+body .mw-body .firstHeading{
+  font-family: Droid Serif;
+  text-align: center;
+  font-size: 48px;
+}
+body .mw-body .firstHeading i{
+  font-style:normal;
+}
+body dt{
+  font-size: 20px;
+  font-family: Droid Serif;
+  margin-bottom: .1em;
+  text-align: center;
+  margin-top: 10px;
+}
+body d1{
+  margin-bottom: 20px;
+}
+body .mw-body  dd:first-child{
+text-align:center;
+}
+body .mw-body  dd{
+margin-left:0;
+  margin-right: 0;
+  font-size: 15px;
+  margin-bottom: 15px;
+  font-family: 'Droid Serif';
+  line-height: 26px;
+}
+body table.wikitable{
+margin-top:25px !important;	
+}
+body table.wikitable > tr > th, body table.wikitable > tr > td, body table.wikitable > * > tr > th, body table.wikitable > * > tr > td{
+  font-family: Droid Serif !important;
+  font-size:15px;
+}
+body .toc li{
+margin:4px 2px;
+}
